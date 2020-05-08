@@ -1,0 +1,68 @@
+html {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+header {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    border-bottom: 1px solid seashell;
+    background-color: black;
+}
+
+
+
+header nav span {
+    justify-content: space-between;
+    display: inline-block;
+    padding: 20px 10px;
+}
+
+header nav {
+    float: right;
+    text-align: right;
+    flex-grow: 1;
+    padding-left: 890px;
+
+}
+
+header a {
+    text-decoration: underline;
+    color: seashell;
+}
+
+header a:visited {
+    color: seashell;
+}
+
+.logo {
+    height: 50px;
+    width: auto;
+    padding-left: 10px;
+    padding-top: 5px;
+    justify-content: flex-start;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+
+    background-image: url("img/img-mission-background.jpg");
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 1200px;
+    margin: 69px auto;
+
+
+}
+
+
+figure img {
+    height: 200px;
+    width: 300px;
+}
